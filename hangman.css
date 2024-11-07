@@ -1,0 +1,109 @@
+body {
+  background-color: #228B22; /* Dark background */
+  color: #E0E0E0; /* Light text color */
+  font-family: "fantasy", papyrus;
+}
+
+main {
+  max-width: 610px;
+  margin: auto;
+}
+
+h1, h5 {
+  text-align: center;
+  color: #FFFFFF; /* White for headers */
+  font-size: 24pt;
+  font-family: 'fantasy', papyrus; 
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #CCCCCC;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+#word {
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 24pt;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: "fantasy", papyrus;
+}
+
+/* Keyboard-style guess letters */
+#guesses {
+  text-align: center;
+  font-size: 18pt;
+  font-weight: bold;
+  color: #FFD700; /* Gold color for visibility */
+}
+
+.guess {
+  padding: 12px 15px;
+  display: inline-block;
+  border: 2px solid #FFD700;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: "fantasy", papyrus;
+  font-size: 14pt;
+  color: #FFD700; /* Gold color */
+  background-color: #333333; /* Dark button background */
+  box-shadow: 0 4px #111111; /* Shadow for 3D effect */
+  text-align: center;
+}
+
+#guessbox {
+  background-color: black;
+  color: white;
+  width: 40%;
+  height: 5%;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+/* Hover effect for keyboard letters */
+.guess:hover {
+  background-color: salmon;
+}
+
+/* Active effect for keyboard letters (pressed effect) */
+.guess:active {
+  background-color: white;
+  box-shadow: 0 2px white;
+  transform: translateY(2px);
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #000000;
+  background-color: salmon;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #333333;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.button:active {
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
+}
+
+#hangmanimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
